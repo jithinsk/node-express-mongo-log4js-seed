@@ -1,3 +1,5 @@
+'use strict';
+
 import './config/database';
 import server from './config/server';
 import {
