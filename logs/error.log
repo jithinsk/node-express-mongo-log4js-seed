@@ -1,3 +1,0 @@
-[2019-11-11T16:35:35.999] [ERROR] default - Error occurred while accesssing API Endpoint: /users/signup
-            StatusCode: 404
-            message: The request resource has not been found.
