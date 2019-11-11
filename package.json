@@ -1,0 +1,28 @@
+{
+  "name": "pwa-attam-api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "prod": "npx gulp build && node dist/index.js",
+    "dev": "npx gulp"
+  },
+  "dependencies": {
+    "@hapi/joi": "^16.1.7",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "log4js": "^5.3.0",
+    "mongoose": "^5.7.7",
+    "mongoose-unique-validator": "^2.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/preset-env": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-nodemon": "^2.4.2",
+    "nodemon": "^1.19.4"
+  }
+}
